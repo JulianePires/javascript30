@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #bbf353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.clock {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow:  36px 36px 70px #9fcf47,
+             -36px -36px 70px #d7ff5f;
+    border: 20px solid #e3f3b2;
+    margin: 50px auto;
+    position: relative;
+}
+
+.clock .clockFront {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.clock .clockFront .pointer {
+    width: 130px;
+    height: 6px;
+    border-radius: 30px 0 0 30px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); /*CRIA O MOVIMENTO DE "TIQUE"*/
+}

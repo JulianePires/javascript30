@@ -1,57 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Share+Tech+Mono&display=swap');
-    
+@import url("https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Share+Tech+Mono&display=swap");
+
 :root {
-    --bgColor: #3700b3;
-    --keyColor: #6200EE;
-    --letterColor: black;
-    --nameColor: #efe5fd;
-    --letterSize: 36px;
-    --nameSize: 36px;
+  --bgColor: #3700b3;
+  --keyColor: #6200ee;
+  --letterColor: black;
+  --nameColor: #efe5fd;
+  --letterSize: 36px;
+  --nameSize: 36px;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bgColor);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bgColor);
 }
 
-
 .keys {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .key {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    background: var(--keyColor);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    border: 4px solid white;
-    cursor: pointer;
-    transition:all 0.09s;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: var(--keyColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 4px solid white;
+  cursor: pointer;
+  transition: all 0.09s;
 }
 
 kbd {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: var(--letterSize);
-    color: var(--letterColor);
+  font-family: "Share Tech Mono", monospace;
+  font-size: var(--letterSize);
+  color: var(--letterColor);
 }
 
 .sound {
-    color: var(--nameColor);
-    font-family: 'Marvel', sans-serif;
+  color: var(--nameColor);
+  font-family: "Marvel", sans-serif;
 }
 
 .playing {
-    transform: scale(1.1);
-    border: 4px solid #7e3ff2;
+  transform: scale(1.1);
+  border: 4px solid #7e3ff2;
 }
