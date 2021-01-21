@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 30 - Day 2 - Clock</title>
+    <script src="../../src/vanilla.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Manipulando CSS com <span class="highlight">Javascript</span></h2>
+
+    <div class="controls">
+      <label for="border">Border</label>
+      <input
+        type="range"
+        name="border"
+        min="0"
+        max="30"
+        value="0"
+        data-sizing="px solid white"
+      />
+
+      <label for="border-radius">Border Radius</label>
+      <input
+        type="range"
+        name="border-radius"
+        min="0"
+        max="50"
+        value="0"
+        data-sizing="%"
+      />
+
+      <label for="base">Base Color</label>
+      <input type="color" name="base" value="#3D9DB8" />
+    </div>
+
+    <div class="square"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
