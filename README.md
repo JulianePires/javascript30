@@ -2,8 +2,6 @@
   <img src="./.github/app.gif" alt="Javascript30" />
 
   &#xa0;
-
-  <!-- <a href="https://javascript30.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Javascript30</h1>
