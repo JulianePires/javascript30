@@ -26,7 +26,7 @@
 	🚧  Javascript30 🚀 Under construction...  🚧
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -42,13 +42,7 @@
 
 ## :dart: About ##
 
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+30 days of Javascript projects to learn and training skills.
 
 ## :rocket: Technologies ##
 
@@ -76,7 +70,7 @@ $ cd javascript30
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn run
 
 # The server will initialize in the <http://localhost:3000>
 ```
