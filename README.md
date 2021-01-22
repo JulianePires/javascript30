@@ -1,9 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Javascript30" />
-
   &#xa0;
-
-  <!-- <a href="https://javascript30.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Javascript30</h1>
@@ -90,7 +86,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/JulianePires" target="_blank">Juliane Pires</a>
 
 &#xa0;
 
