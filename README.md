@@ -62,49 +62,42 @@ The following tools were used in this project:
 * [Dia 07 - BLOQUINHO DO POP UP](#id07)
 
 ## Desafio do dia 1 - Drum Keys <a name="id01"></a>
-![Dia 01](./src/videos/day1.mp4)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day1)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_javascript30-javascript-html5-activity-6753321438532444161-Fqza)
 
 ## Desafio do dia 2 - Drum Keys <a name="id02"></a>
-![Dia 01](./src/videos/day2.mp4)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day2)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_javascript-30-dia-2-seguindo-o-roteiro-activity-6754854611338825728-1_56)
 
 ## Desafio do dia 3 - Drum Keys <a name="id03"></a>
-![Dia 03](./src/videos/day3.mp4)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day3)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_javascript30-html-javascript-activity-6758034470722449408-S8f6)
 
 ## Desafio do dia 4 - Drum Keys <a name="id04"></a>
-![Dia 04](./src/videos/day4.gif)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day4)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_html-css-javascript-activity-6763883813291515904-tfdY)
 
 ## Desafio do dia 5 - Drum Keys <a name="id05"></a>
-![Dia 05](./src/videos/day5.gif)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day5)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_javascript-javascript30-html-activity-6766465236980572160-AfwI)
 
 ## Desafio do dia 6 - Drum Keys <a name="id06"></a>
-![Dia 06](./src/videos/day6.mp4)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day6)
 
 [Post Linkedin](https://www.linkedin.com/posts/juliane-pires_javascript-html-css-activity-6766922097122975744-7pUs)
 
 ## Desafio do dia 7 - Drum Keys <a name="id07"></a>
-![Dia 07](./src/videos/day7.mp4)
 
 [Código](https://github.com/JulianePires/javascript30/tree/main/challenges/day4)
 
