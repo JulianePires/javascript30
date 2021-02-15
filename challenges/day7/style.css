@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  background: #212121;
+  font-family: 'Inconsolata', monospace;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background: rgba(0,0,0,.5);
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container.show{
+  display: flex;
+}
+
+.modal{
+  background: #62349D;
+  width: 60%;
+  min-width: 300px;
+  border: 10px solid white;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.show .modal{
+  animation: modal .3s;
+}
+
+.modal-header{
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  background: white;
+}
+
+#close{
+  float: right;
+  background: #685C91;
+  color: rgb(245, 211, 255);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  overflow: none;
+}
+
+#close:hover{
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+  background: #413761;
+}
+
+#close:active{
+  transform: scale(0.9);
+}
+
+#modal-title{
+  color: #35295E;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 15px rgb(245, 211, 255);
+}
+
+.modal-body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  color: rgb(245, 211, 255);
+  font-size: 20px;
+}
+
+iframe{
+  margin: 20px;
+}
+
+.modal-footer{
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  background: #35295E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 211, 255);
+}
+
+#link{
+  color: mediumpurple;
+  text-decoration: none;
+}
+
+#link:hover{
+  color: lavender;
+}
+
+#open{
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+  background: #35295E;
+  color: rgb(245, 211, 255);
+  border: none;
+  border-radius: 5px;
+  overflow: none;
+}
+
+#open:hover{
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+  background: #413761;
+}
+
+#open:active{
+  transform: scale(1);
+}

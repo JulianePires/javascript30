@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 30 - Day 7 Vanilla.JS PopUP</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/222c94087f.js" crossorigin="anonymous"></script>
+    <script src="../../src/vanilla.js"></script>
+  </head>
+  <body>
+    <!--BUTTON-->
+    <button id="open">ABRIR POP UP <i class="fas fa-external-link-square-alt"></i></button>
+
+    <!--POP UP-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <div class="modal-header">
+          <button id="close">x</button>
+          <h2 id="modal-title">Bloquinho do Pop Up</h2>
+        </div>
+        <div class="modal-body">
+          <p>Uma singela homenagem ao DesCarnaval 2021</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/twkELvTzmuc"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="modal-footer">
+          <p>
+            Orgulhosamente criado em casa por
+            <a id="link" href="https://github.com/JulianePires">JulianePires</a>
+            que poderia estar num bloco neste momento.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
