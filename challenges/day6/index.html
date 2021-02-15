@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <title>JavaScript30 Dia 6 - Pop Up</title>
+  </head>
+  <body>
+    <button
+      data-target="modal1"
+      class="waves-effect waves-light deep-orange darken-4 btn-large modal-trigger"
+      onclick="openModal('modal1')"
+    >
+      <i class="material-icons right">add_circle_outline</i>Open Pop Up
+    </button>
+
+    <!--POP UP-->
+    <div id="modal1" class="modal scale-transition scale-in hoverable">
+      <div class="modal-content">
+        <button
+          id="close"
+          onclick="closeModal('modal1')"
+          class="waves-effect waves-light amber darken-4 white-text btn-small pulse"
+        >
+          <i class="material-icons center">close</i>
+        </button>
+        <h2 class="deep-orange darken-4 white-text container z-depth-3">
+          POP UP Exemplo
+        </h2>
+        <h5>
+          Construido durante o desenvolvimento do projeto
+          <strong class="amber-text text-darken-4">JavaScript30</strong>
+        </h5>
+        <img
+          id="gif"
+          src="https://media.giphy.com/media/5BYDjBGf0qcA3Lc6nJ/giphy.gif"
+          alt="gif dançarina"
+        />
+      </div>
+      <div class="modal-footer">
+        <p>
+          Feito por
+          <a
+            href="https://github.com/JulianePires"
+            class="amber-text text-darken-3 hoverable"
+            >JulianePires</a
+          >
+        </p>
+        <p>Tecnologias utilizadas:</p>
+        <img src="./icons/materialize.svg" alt="materialize" />
+        <img src="icons/js.svg" alt="" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

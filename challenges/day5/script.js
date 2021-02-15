@@ -57,12 +57,12 @@ function toggleOpen() {
 
 function toggleActive(e) {
   console.log(e.propertyName);
-  if (e.propertyName.includes("flex")) {
+  if (e.propertyName. includes("flex")) {
     this.classList.toggle("open-active");
   }
 }
 
-paineis.forEach((panel) => panel.addEventListener("click", toggleOpen));
+paineis.forEach((panel) => panel.addEve**ntListener("click", toggleOpen));
 paineis.forEach((panel) =>
   panel.addEventListener("transitionend", toggleActive)
 );
